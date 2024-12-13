@@ -3,7 +3,7 @@ let operator = '';
 let previousInput = '';
 
 function appendValue(value) {
-    if (currentInput === '0' && value === '0') return; // Prevent multiple leading zeros
+    if (currentInput === '0' && value === '0') return; 
     currentInput += value;
     updateDisplay(currentInput);
 }
